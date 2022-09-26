@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/astronaut_blue"
+    tools:context=".ui.profile.changeEmail.ChangeEmailFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textFieldOldPassword"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/old_password"
+                app:errorEnabled="true"
+                app:startIconDrawable="@drawable/ic_lock"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:endIconMode="password_toggle"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintVertical_bias="0.25"
+                android:layout_marginHorizontal="@dimen/_16sdp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etPasswordOld"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textFieldPassword"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/password"
+                app:errorEnabled="true"
+                app:startIconDrawable="@drawable/ic_lock"
+                app:layout_constraintTop_toBottomOf="@id/textFieldOldPassword"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:endIconMode="password_toggle"
+                android:layout_marginTop="@dimen/_32sdp"
+                android:layout_marginHorizontal="@dimen/_16sdp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textFieldRePassword"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/confirm_password"
+                app:startIconDrawable="@drawable/ic_lock"
+                app:errorEnabled="true"
+                app:layout_constraintTop_toBottomOf="@id/textFieldPassword"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginHorizontal="@dimen/_16sdp"
+                android:layout_marginTop="@dimen/_32sdp"
+                app:endIconMode="password_toggle">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etRePassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnChangeEmail"
+                android:layout_width="@dimen/_125sdp"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/textFieldRePassword"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="@dimen/_32sdp"
+                android:padding="@dimen/_8sdp"
+                android:text="@string/change_all_caps"
+                android:textAllCaps="false"
+                android:enabled="false"
+                android:alpha="0.5"
+                app:cornerRadius="@dimen/_8sdp"
+                android:backgroundTint="@color/pumice"
+                android:textColor="@color/black"
+                android:includeFontPadding="false"
+                android:fontFamily="@font/open_sans_medium"
+                android:textStyle="bold" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

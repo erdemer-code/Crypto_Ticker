@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/on_boarding_bg"
+    tools:context=".ui.onBoarding.OnBoardingFragment">
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="@id/tvOnBoardingAppTitle"
+        app:layout_constraintEnd_toEndOf="@id/tvOnBoardingAppTitle"
+        app:layout_constraintTop_toTopOf="@id/tvOnBoardingAppTitle"
+        app:layout_constraintBottom_toBottomOf="@id/tvOnBoardingAppTitle"
+        android:background="@color/pumice"
+        android:alpha="0.4" />
+    <TextView
+        android:id="@+id/tvOnBoardingAppTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_24ssp"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginHorizontal="@dimen/_16sdp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="@dimen/_36sdp"
+        android:text="@string/app_name"
+        android:fontFamily="@font/open_sans_bold"
+        android:textStyle="italic"
+        android:padding="@dimen/_8sdp"
+        android:gravity="center"
+        android:backgroundTint="@color/pumice" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnLogin"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="@dimen/_32sdp"
+        android:text="@string/login_all_caps"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        android:fontFamily="@font/open_sans_medium"
+        android:includeFontPadding="false"
+        android:textStyle="bold"
+        android:padding="@dimen/_8sdp"
+        android:background="@drawable/onboarding_gradient_bg" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnRegister"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/btnLogin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="@dimen/_16sdp"
+        android:padding="@dimen/_8sdp"
+        android:text="@string/register_all_caps"
+        android:textAllCaps="false"
+        android:background="@drawable/onboarding_gradient_bg"
+        android:textColor="@color/black"
+        android:includeFontPadding="false"
+        android:fontFamily="@font/open_sans_medium"
+        android:textStyle="bold" />
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

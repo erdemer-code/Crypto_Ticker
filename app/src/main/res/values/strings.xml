@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Crypto Ticker</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login_all_caps">LOGIN</string>
+    <string name="register_all_caps">REGISTER</string>
+    <string name="sign_up_all_caps">SIGN UP</string>
+    <string name="email">Email</string>
+    <string name="full_name">Full Name</string>
+    <string name="password">Password</string>
+    <string name="password_error_text">"Password must be at least 6 characters"</string>
+    <string name="ok">Ok</string>
+    <string name="register_authenticate_error">"Authentication failed, please try again later!"</string>
+    <string name="change_password">Change Password</string>
+    <string name="logout">Logout</string>
+    <string name="profile_welcome_text">Hello There, %s!</string>
+    <string name="coin_item_name">%s (%s)</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="change_all_caps">CHANGE</string>
+    <string name="password_matched_error_text">Passwords should be matched!</string>
+    <string name="old_password">Old Password</string>
+    <string name="coin_detail_name">Name: %s</string>
+    <string name="coin_detail_symbol">Symbol: %s</string>
+    <string name="coin_detail_hashing_algorithm">Hashing Algorithm: %s</string>
+    <string name="description">Description</string>
+    <string name="current_price">Current Price</string>
+    <string name="price_change_24h">24h Price Change With Currencies (%)</string>
+    <string name="general_price_change_24h">24h Price Change: %.2f \%% </string>
+    <string name="choose_price_refresh_time_interval">Choose Price Refresh Time Interval</string>
+
+    <string-array name="refresh_interval">
+        <item>30 seconds</item>
+        <item>60 seconds</item>
+        <item>90 seconds</item>
+        <item>120 seconds</item>
+        <item>150 seconds</item>
+        <item>180 seconds</item>
+    </string-array>
+</resources>

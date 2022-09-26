@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "21820658214",
+    "project_id": "crypto-ticker-d6d0c",
+    "storage_bucket": "crypto-ticker-d6d0c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:21820658214:android:e25583c9eb71dd566c4ce7",
+        "android_client_info": {
+          "package_name": "com.erdemer.cryptoticker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "21820658214-hpqqfpp8mjcv9tlmuhnsfess5g6q15ne.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2kPH5gV-X6q882t6vGJKZDFwyKDEM5kU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "21820658214-hpqqfpp8mjcv9tlmuhnsfess5g6q15ne.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
