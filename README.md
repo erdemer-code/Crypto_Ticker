@@ -1,5 +1,4 @@
 # Crypto_Ticker
-# Crypto Tikcer
 
 A simple app that can visualize Crypto coins and their details.
 (Coin data is taken from https://www.coingecko.com/en/api)
